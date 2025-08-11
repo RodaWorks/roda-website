@@ -1,0 +1,47 @@
+{
+  "name": "roda-website",
+  "version": "1.0.0",
+  "description": "Premium wheel engineering website for Roda",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "echo 'Static site - no build process needed'",
+    "deploy": "gh-pages -d .",
+    "validate": "html-validate index.html",
+    "optimize": "imagemin assets/images/* --out-dir=assets/images/optimized",
+    "lighthouse": "lighthouse http://localhost:8080 --output html --output-path ./lighthouse-report.html",
+    "serve": "python -m http.server 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/roda-website.git"
+  },
+  "keywords": [
+    "wheel-repair",
+    "automotive",
+    "sydney",
+    "cnc-machining",
+    "precision-engineering",
+    "wheel-refinishing",
+    "custom-wheels",
+    "wheel-design"
+  ],
+  "author": "Roda Engineering",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/roda-website/issues"
+  },
+  "homepage": "https://github.com/yourusername/roda-website#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "gh-pages": "^4.0.0",
+    "html-validate": "^7.13.0",
+    "imagemin-cli": "^7.0.0",
+    "lighthouse": "^10.4.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
