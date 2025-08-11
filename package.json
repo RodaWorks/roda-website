@@ -1,8 +1,0 @@
-{
-  "name": "roda-website",
-  "version": "1.0.0",
-  "description": "Premium wheel engineering website for Roda",
-  "scripts": {
-    "build": "echo 'Build completed - static files ready'"
-  }
-}
