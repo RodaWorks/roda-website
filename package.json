@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "start": "live-server",
-    "build": "echo 'Static site - no build process needed'",
+    "build": "echo 'Build completed - static files ready'",
+    "dev": "live-server --port=3000",
     "deploy": "gh-pages -d .",
     "validate": "html-validate index.html",
     "optimize": "imagemin assets/images/* --out-dir=assets/images/optimized",
