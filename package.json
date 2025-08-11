@@ -1,0 +1,32 @@
+{
+  "name": "roda-website",
+  "version": "1.0.0",
+  "description": "Premium wheel engineering website for Roda",
+  "main": "index.html",
+  "scripts": {
+    "build": "node build.js",
+    "start": "live-server public",
+    "dev": "live-server",
+    "clean": "rm -rf public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodaWorks/roda-website.git"
+  },
+  "keywords": [
+    "wheel-repair",
+    "automotive",
+    "sydney",
+    "cnc-machining",
+    "precision-engineering",
+    "wheel-refinishing",
+    "custom-wheels",
+    "wheel-design"
+  ],
+  "author": "Roda Engineering",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RodaWorks/roda-website/issues"
+  },
+  "homepage": "https://github.com/RodaWorks/roda-website#readme"
+}
